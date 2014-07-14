@@ -13,10 +13,15 @@ is the startup js where you can config you app.
 configuration options:
 
 urls:cropApiUrl:'/crop'
+
 cropContainerSelector:'#cropContainer',
+
 previewContainerSelector:'#previewContainer',
+
 cropBtnSelector:'#cropBtn',
+
 fileBtnSelector:'#fileupload',
+
 cropSetting:
                 selectorW:100, //选择框大小
                 selectorH:100,
