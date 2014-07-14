@@ -4,7 +4,8 @@ upload and crop an image.
 encapsulated with requirejs.
 
 -----------------------------usage-------------------------------------
-<script type="text/javascript" data-main="app" src="lib/require.js"></script>
+ 
+ data-main="app" src="lib/require.js"
 is the only script that is needed by the app.
 
 main.js
