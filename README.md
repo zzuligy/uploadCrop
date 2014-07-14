@@ -12,24 +12,19 @@ is the startup js where you can config you app.
 
 configuration options:
 
-{
-            urls:{
-                cropApiUrl:'/crop'
-            },
-            cropContainerSelector:'#cropContainer',
-            previewContainerSelector:'#previewContainer',
-            cropBtnSelector:'#cropBtn',
-            fileBtnSelector:'#fileupload',
-            cropSetting:{
+urls:cropApiUrl:'/crop'
+cropContainerSelector:'#cropContainer',
+previewContainerSelector:'#previewContainer',
+cropBtnSelector:'#cropBtn',
+fileBtnSelector:'#fileupload',
+cropSetting:
                 selectorW:100, //选择框大小
                 selectorH:100,
                 windowW:400, //框大小
                 windowH:400,
                 previewW:150, //预览框大小
                 previewH:150
-            }
-}
-
+            
 
         
 uploadCallback //upload successfuly callback
